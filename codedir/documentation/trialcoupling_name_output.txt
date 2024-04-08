@@ -1,0 +1,59 @@
+z -  week%d and main results /// Shares_Price.csv - economic regions x variables
+-----------------------------
+economic region id 
+
+nse_r             % non-served electricity (MWH)- economic region econr - week - added 5
+toc_r             % total cost of electricity generation ($) - economic region r - week
+gen_r             % electricity generation (MWH) - economic region r - week
+coal_gen_r        % coal electricity generation (MWH) - economic region r - week
+ngas_gen_r        % natural gas CT, CCGT, steam, turbine electricity generation (MWH) - economic region r - week
+
+steam_gen_r       % electricity generation (MWH) - steam turbine - economic region econr - week
+nuclear_gen_r     % electricity generation (MWH) - nuclear - economic region econr - week
+biogas_gen_r      % electricity generation (MWH) - bio-gass - economic region econr - week
+geo_gen_r         % electricity generation (MWH) - geothermal - economic region econr - week
+petrol_gen_r      % electricity generation (MWH) - petroleum - economic region econr - week
+intertiel_gen_r   % electricity generation (MWH) - itertie - economic region econr - week
+wind_gen_r        % electricity generation (MWH) - wind (onshore) - economic region econr - week
+
+hydro_gen_r       % electricity generation (MWH) - hydro - economic region econr - week
+pshydro_gen_r     % electricity generation (MWH) - ps hydro - economic region econr - week
+motorload_gen_r   % electricity generation (MWH) - motorload - economic region econr - week
+solar_gen_r       % electricity generation (MWH) - solar (all) - economic region econr - week
+
+toc_coal_r        % total cost of electricity generation ($) - coal - economic region r - week
+toc_ngas_r        % total cost of electricity generation ($) - natural gas (CT: CCGT) - economic region r - week
+
+annual_mc_r       % calculate annualized cost of electicity generation ($/MWH)
+
+ref_mc_r          % reference generation weighted average marginal cost
+annual_mean_mc_r  % generation weighted average marginal cost
+ex_ref_chang_r    % percentage change in electricity generation weighted average marginal cost from the baseline
+ex_prev_chang_r   % calcuate percentage change in electricity generation weighted average marginal cost from the previous iteration 
+
+d_ele_econr_pchg  % percentage change local electricity production from the baseline: economic region
+p_ele_econr_pchg  % percentage change local electricity production price from the baseline: economic region
+pa_ele_econr_pchg % percentage change electricity production Armington price from the baseline: economic region
+
+
+y - main results zones /// Shares_Price.csv - zones x variables
+-----------------------
+economic region id 
+psm zones id
+
+d_ele_zones_pchg % percentage change local electricity production from the baseline: economic region
+p_ele_zones_pchg % percentage change local electricity production price from the baseline: economic region
+pa_ele_zones_pchg % percentage change electricity production Armington price from the baseline: economic region
+
+
+
+TotalUnserved.csv - d x r
+-------------------------------
+annual_nse_r % calculate total annual NSE 
+
+
+Change%d.csv
+-------------------
+economic region id 
+annual_mean_mc_r
+ex_ref_chang_r    % percentage change in electricity generation weighted average marginal cost from the baseline

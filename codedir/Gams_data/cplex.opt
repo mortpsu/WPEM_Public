@@ -1,0 +1,16 @@
+relaxfixedinfeas=1
+mipstart=1
+probetime=60
+nodefileind=3
+memoryemphasis=0
+ScaInd=1
+mipemphasis=0
+bbinterval=3
+cuts=2
+cliques=3
+covers=3
+liftprojcuts=3
+localimplied=3
+probe=3
+lpmethod=6
+numericalemphasis=1

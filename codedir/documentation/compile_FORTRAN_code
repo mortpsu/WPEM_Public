@@ -1,0 +1,3 @@
+module load intel
+module load impi
+mpiifort ManagePSMv7.f90 -o Manage_PSM
